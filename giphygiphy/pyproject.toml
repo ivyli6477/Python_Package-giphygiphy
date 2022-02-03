@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "giphygiphy"
+version = "0.1.0"
+description = "Having fun with GIFs!"
+authors = ["Xinran Li"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/ivyli6477"
+repository = "https://github.com/ivyli6477/giphygiphy"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.3.5"
+python-dotenv = {extras = ["cli"], version = "^0.19.2"}
+
+[tool.poetry.dev-dependencies]
+myst-nb = "^0.13.1"
+sphinx-autoapi = "^1.8.4"
+sphinx-rtd-theme = "^1.0.0"
+pytest = "^6.2.5"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
